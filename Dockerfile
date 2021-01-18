@@ -8,6 +8,6 @@ ARG JAR_FILE_PATH
 
 COPY ${JAR_FILE_PATH} app.jar
 
-ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom", "-Dspring.config.location=application.properties","-jar", "app.jar"]
+ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-jar", "-Dspring.config.location=application.properties", "app.jar"]
 
 EXPOSE 80
