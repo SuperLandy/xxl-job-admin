@@ -6,7 +6,7 @@ WORKDIR /home
 
 ARG JAR_FILE_PATH
 
-ADD ${JAR_FILE_PATH} app.jar
+COPY ${JAR_FILE_PATH} app.jar
 
 ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom", "-Dspring.config.location=application.properties","-jar", "app.jar"]
 
