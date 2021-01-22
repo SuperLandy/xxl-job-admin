@@ -41,7 +41,8 @@ XXL-JOB 一个开源的任务调度中心
 * argo                CD工具，自动同步github仓库配置文件
 * MySQL               xxl-job-admin 连接数据库
 * postgresql          sonarqube连接数据库
-
+* elastic-apm         apm监控埋点
+* efk                 k8s日志系统
 
 ## CI/CD 功能
 
@@ -95,3 +96,6 @@ XXL-JOB 一个开源的任务调度中心
 * 应用截图
 
   ![image-app](README.assets/app.png)  
+  
+* apm效果
+  ![image-apm](README.assets/apm.png)    
