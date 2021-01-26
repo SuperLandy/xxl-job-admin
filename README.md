@@ -2,11 +2,9 @@
 
 ## 应用概述 
 
-XXL-JOB 一个开源的任务调度中心
+XXL-JOB 任务调度中心  
 
-* 项目地址： https://github.com/xuxueli/xxl-job      
-
-* 项目代码结构：
+* 代码结构：
 ####
 	xxl-job-admin                              调度中心
 	xxl-job-core                               公共依赖
@@ -72,6 +70,10 @@ XXL-JOB 一个开源的任务调度中心
 * git 管理
 * 应用部署
 * 发送邮件
+
+
+## 致谢
+- [xxl-job](https://github.com/xuxueli/xxl-job) 项目源码
 
 
 ## 演示截图
