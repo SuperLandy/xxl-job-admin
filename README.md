@@ -16,6 +16,23 @@ XXL-JOB 一个开源的任务调度中心
 	  xxl-job-executor-sample-frameless        无框架版本
 
 
+* Jenkins工具列表：	  
+####
+	Plugin： 
+		git
+		Text Finder
+		jacoco
+		Allure
+		Sonar Quality Gates Plugin
+		SonarQube Scanner for Jenkins
+		nexus Artifact Uploader plugin
+	
+	linux:
+		git
+		sonar-scan
+		allure-commandline
+		
+
 ## 流水线阶段描述
 
 * git clone：         代码克隆
@@ -23,6 +40,7 @@ XXL-JOB 一个开源的任务调度中心
 * Junit Test：        单元测试
 * Allure ：           测试结果图表
 * Maven Build：       代码编译
+* Nexus:              制品仓库
 * Docker Build:       容器构建推送
 * git tag：           携带本次修改变动信息，更新deployment仓库的yaml文件
 * Deployment：        argo平台自动同步deployment仓库配置文件
@@ -76,6 +94,11 @@ XXL-JOB 一个开源的任务调度中心
 * sonarqube 扫描截图
 
   ![image-执行结果](README.assets/saomiaojieguo.png)
+  
+  
+* Nexus 制品仓库截图
+
+  ![image-Nexus制品仓库 ](README.assets/nexus.png)  
   
   
 * allure 测试报告图
