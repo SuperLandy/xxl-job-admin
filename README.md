@@ -3,6 +3,7 @@
 ## 应用概述 
 
 XXL-JOB 任务调度中心  
+流水线演示视频 https://www.bilibili.com/video/BV1KX4y1L7pf
 
 * 代码结构：
 ####
